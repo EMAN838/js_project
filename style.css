@@ -1,0 +1,395 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap'); 
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.navbar{
+    background-color: rgb(135, 135, 135);
+    position: sticky;
+    top: 0;
+  
+}
+.navbar a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.slide{
+  height: 650px;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+
+.section1 .text1{
+    margin-top: 40px;
+    width: 50%;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.249);
+}
+/****slider******/
+.w3-content .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.w3-content .content h1{
+    position: absolute;
+    z-index: 100;
+    font-weight: 400;
+    color: white;
+    font-size: large;
+    left: 50px;
+    top:100px
+}
+/* about us home*/
+.heading{
+ text-align: center;
+ font-size: 30px;
+ color: rgb(79, 182, 219);
+ padding:1rem  ;
+ margin: 2rem 0;
+ background:rgb(137, 137, 137) ;
+}
+.heading span{
+   color: #fff;
+   text-transform: capitalize;
+}
+.about .row{
+   display: flex;
+   align-items: center;
+   gap:2rem;
+   flex-wrap: wrap;
+   padding:2rem 0;
+   padding-bottom:3rem ;
+}
+.about .row .img-container{
+    flex:1 1 40rem;
+    position: relative; 
+}
+.about .row .img-container img{
+  width: 100%;
+  border: 1px solid ;
+  border-radius: .5rem;
+  
+  object-fit: cover;
+}
+.about .row .content{
+   background-color: rgb(236, 236, 236); 
+  flex:1 1 40rem;
+  border-radius:5px ;
+  padding: 10px;
+}
+.about .row .content h3{
+  font-size: 3rem;
+}
+.about .row .content p{
+  font-size:18px;
+}
+.row .content .btn{
+  display: inline-block;
+  margin: 1rem;
+  border-radius: 5rem;
+  background-color: rgb(161, 157, 157);
+  color: rgb(255, 255, 255);
+  padding:10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+/********about us page*****************/
+.head{
+    background-image: url("./New folder/woman-in-white-dress-outside.jpg");
+    background-size: cover;
+    height: 550px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.head h2{
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.ourhistory{
+    background-image: url("./New folder/pexels-jonathan-pham-2977345.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    height:510px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content:space-around ;
+}
+.ourhistory .content{ 
+    text-align:left;
+  
+}
+.ourteam{
+    
+ margin: 50px 0;
+align-items: center;  
+   
+}
+.ourteam .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ourteam .row .card{
+  margin:10px 10px;
+}
+.title{
+  margin-bottom: 40px;
+}
+
+.ourteam p{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/*****filter***********/
+.containe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin: 4rem;
+
+}
+.menu{
+ margin-bottom:1.5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ 
+}
+.menu li{
+  font-size: 1.1rem;
+  list-style: none;
+  background-color: rgb(164, 164, 164);
+  color: black;
+  padding: 12px 22px;
+  margin: 5px;
+  cursor: pointer;
+}
+.menu li.active{
+  background-color: rgb(44, 108, 197);
+  color: rgb(245, 247, 249);
+}
+.product{
+display: grid;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.card{
+ 
+position: relative;
+width: 32%;
+
+display: block;
+}
+.card img{
+position: absolute; 
+top: 0;
+left:0;
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.card.hide{
+  display: none;
+}
+
+.card .card-body{
+  height: 400px;
+  padding-top:220px;
+}
+
+
+.card-body .btn{
+   margin-top:0 ;
+    background-color: rgb(44, 108, 197);
+    color: azure;
+    cursor: pointer;
+}
+.btn-view{
+  background-color: rgb(44, 108, 197);
+  color: azure;
+  border: 1px solid none ;
+  margin-top:45px;
+  padding: 10px;
+  width: 100px; 
+  cursor: pointer;
+}
+.btn-view a{
+  color: azure;
+  text-decoration: none;
+}
+/********review********/
+.review .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+
+}
+.review .box-container .box{
+  flex: 1 1 ;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+  border-radius: .5rem;
+  padding:3rem 2rem ;
+  position: relative ;
+  margin-bottom:30px ;
+}
+.review .box-container .box .fa-quote-right{
+   position: absolute;
+   bottom: 3rem ;
+   right: 3rem;
+   font-size: 2rem ;
+   color:#eee
+}
+.review .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top:2rem;
+}
+.review .box-container .box .stars i{
+   color: rgb(44, 108, 197) ;
+   font-size: 1rem;
+}
+.review .box-container .box .stars p{
+  color: #999;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-top: 2rem;
+}
+.review .box-container .box .user .user-info{
+  font-size: 2rem;
+  color: rgb(98, 97, 97);
+  margin-left: 6px;
+}
+/*****************contact us page*/
+.home{
+    height: 550px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./New folder/bringing-some-sparkle-on-a-walk.jpg");
+    background-size: cover;
+    color: white;
+}
+.contact .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.contact .row form{
+  flex: 1 1 30rem;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  border:1px solid rgba(0, 0, 0, 0.1) ;
+  background: #fff;
+  border-radius: .5rem;
+}
+.contact .row .image-contct{
+  flex: 1 1 30rem;
+}
+.contact .row .image-contct img{
+ width: 100%;
+ height: 581px;
+  border: 1px solid ;
+  border-radius: .5rem;
+  
+  object-fit: cover;
+}
+.contact .row form .box{
+   padding: 10px;;
+   font-size:18px;
+   color: #333; 
+   text-transform: none;
+  border: .1rem solid rgba(0, 0, 0, 0.1);
+  
+  border-radius: .5rem;
+  margin: 5px;
+  width: 100%;
+}
+.contact .row form .box:focus{
+ border-color: rgb(44, 108, 197);
+
+}
+.contact .row form textarea{
+  height: 15rem ;
+  resize: none;
+}
+.contact .row form .btn-send{
+  display: inline-block;
+  margin: 1rem;
+  border-radius: 5rem;
+  background-color:rgb(44, 108, 197);
+  color: rgb(255, 255, 255);
+  padding:10px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+/*check*/
+
+.errorm{
+  color: red;
+  display: none;
+}
+
+.errmail{
+  color: red;
+  display: none;
+}
+.errpws{
+  color: red;
+  display: none;
+}
+
+/*******footer*/
+
+
+/**scroll***/
+.up{
+    position: fixed;
+    bottom: 10px; 
+    right: -50px;
+    background-color: rgb(183, 183, 183);
+    color: black; 
+    font-weight:bold ;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .up.show{
+    right: 10px;
+  }
+
+@media(max-width:450px){
+
+
+  .heading{
+    font-size:3rem ;
+  }
+}  
